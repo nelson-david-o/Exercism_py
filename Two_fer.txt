@@ -1,0 +1,6 @@
+def two_fer(*args):
+    if args:
+      return "One for " + args[0] + ", one for me."
+    else:
+      return "One for you, one for me."
+    pass
